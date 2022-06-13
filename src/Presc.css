@@ -174,3 +174,35 @@
       }
     
   }
+@media (max-width:360px){
+    .prescInside{
+      padding: 10px;
+    }
+    .prescInside >.header > h1{
+      font-size: 2rem;
+    }
+    .doctorInfo > h3{
+      font-size: 1.1rem;
+    }
+    .doctorInfo > h3 > span{
+      font-size: 0.9rem;
+    }
+    .doctorAddress > p{
+      font-size: 0.7rem;
+    }
+    .Medicine, .Notes{
+      padding: 0;
+      height: 130px;
+      overflow: scroll;
+    }
+    .doctorSignature{
+      padding: 0 5px;
+    }
+    .doctorSignature > p {
+      font-size: 0.9rem;
+  }
+    
+    .signature > p{
+        font-size: 0.9rem; 
+    }
+  }
